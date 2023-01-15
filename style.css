@@ -140,7 +140,21 @@ body{
         margin: 5% 1% 2% 0;
     }
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
+    .encTextos h1{
+        font-size: 40px;
+    }
+    .encTextos p{
+        margin: 5% 0% 2% 0;
+    }
+}
+@media screen and (max-width:576px) {
+    .encTextos h1{
+        font-size: 30px;
+    }
+    .encTextos p{
+        margin: 5% 0% 2% 0;
+    }
     .contenedor{
         width: 95%;
     }
@@ -196,14 +210,7 @@ body{
         margin-top: 0%;
     }
 }
-@media screen and (max-width:576px) {
-    .encTextos h1{
-        font-size: 30px;
-    }
-    .encTextos p{
-        margin: 5% 0% 2% 0;
-    }
-}
+
 @media screen and (max-width:375px){
     body{
         background-image: url(./images/bg-pattern-bottom-mobile.svg),url(./images/bg-pattern-top-mobile.svg);
